@@ -1,24 +1,24 @@
-# Context del projecte
+# Project Context — Echoes in the City
 
-## Informació general
-- **Repositori:** `Paladini-Elisava/Projecte-Inicial`
-- **Branca consultada:** `main`
-- **Tecnologies:** HTML, CSS i JavaScript natius.
+## General Information
+- **Repository:** `aliceliviero/Proyecto_Personal_WEB_ELISAVA`
+- **Inspected branch:** `main`
+- **Technologies:** Native HTML, CSS, and JavaScript.
 
-## Fitxers principals
+## Main Files
 ### `index.html`
-Defineix una pàgina en castellà amb un títol, una frase descriptiva, un botó i un paràgraf ocult que conté una pregunta de recerca provisional. Carrega `style.css` i `script.js`.
+Defines an English-language page (`lang="en"`) with the project title (*Echoes in the City: a spatial and emotional cartography of music*), a descriptive sentence about connecting Spotify listening history, Google Maps coordinates, and emotional states, a toggle button (`#boton`), and a hidden paragraph (`#texto`) containing the research question. Loads `style.css` and `script.js`.
 
 ### `style.css`
-Aplica una tipografia sans-serif, un marge general de 40 píxels, el color blau al títol i espaiat al botó.
+Applies Helvetica typography (`'Helvetica Neue', Helvetica, Arial, sans-serif`), a general 40px margin, a Dark Mode background (`#0F1115`) with `#F3F4F6` body text, `#BD2DAA` for the main title (`h1` at `60px`, `Bold`, `1.5` line height, `-0.019em` letter spacing), `#F57CE5` for secondary text and hover states, and `#B9FAF8` accents for the button.
 
 ### `script.js`
-Selecciona els elements `#boton` i `#texto`. Quan es clica el botó, alterna la propietat `hidden` del text.
+Selects the `#boton` and `#texto` elements. When the button is clicked, it toggles the `hidden` property of the research question text.
 
 ### `README.md`
-Actualment conté només el títol del projecte.
+Contains the project title and overview.
 
-## Consideracions
-- El contingut de la pàgina encara inclou textos de mostra.
-- No s'ha identificat cap `package.json`; el projecte no sembla requerir un procés de compilació basat en Node.js.
-- Aquest document descriu els fitxers revisats i s'ha d'actualitzar quan canviï l'estructura.
+## Considerations
+- The initial template placeholders have been replaced with the definitive project title, description, research question, and Dark Mode visual identity.
+- No `package.json` has been identified; the project runs purely with vanilla web technologies and requires no Node.js build process.
+- This document describes the reviewed files and must be updated whenever the project structure evolves.
