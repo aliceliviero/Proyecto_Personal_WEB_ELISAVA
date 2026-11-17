@@ -36,7 +36,15 @@ Omet els camps que no siguin pertinents. Mantén les entrades concises i orienta
 
 ---
 
-## 2026-11-02 — Revisió inicial i documentació
+---
+
+## 2026-11-17 – Project definition, Dark Mode identity, and documentation update
+- **Changes:** updated `index.html` with the project title (*Echoes in the City: a spatial and emotional cartography of music*), description, and research question in English; updated `style.css` with Helvetica typography and the Dark Mode palette (`#0F1115`, `#F3F4F6`, `#BD2DAA`, `#F57CE5`, `#B9FAF8`); updated `memoria.md`, `context.md`, and `log.md`.
+- **Reason:** replace initial template placeholders with the definitive concept, visual identity, and English documentation.
+- **Verification:** reviewed HTML/CSS files and verified Markdown formatting in GitHub preview.
+- **Pending/issues:** finalize secondary typeface pairing, design the logotype, and implement the interactive map exploration and user contribution flow.
+
+## 2026-11-02 – Revisió inicial i documentació
 - **Canvis:** revisats `README.md`, `index.html`, `style.css` i `script.js`; afegits `memoria.md`, `context.md` i aquest registre.
 - **Motiu:** documentar l'estructura inicial i establir una base per al manteniment.
 - **Verificació:** llegits els quatre fitxers originals; identificada una pàgina HTML bàsica amb CSS i JavaScript.
